@@ -1,7 +1,3 @@
-Sip 👍, aku bikinin draft **README.md** untuk project **SKPU Air Pollution menggunakan SVM** biar rapi dan profesional.
-
----
-
 # 🌍 SKPU Air Pollution Prediction with SVM
 
 Proyek ini merupakan implementasi **Sistem Klasifikasi/Predictive Udara (SKPU)** untuk memprediksi tingkat polusi udara menggunakan algoritma **Support Vector Machine (SVM)**.
