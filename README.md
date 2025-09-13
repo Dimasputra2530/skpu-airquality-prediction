@@ -1,70 +1,92 @@
-🌍 SKPU Air Pollution Prediction with SVM
+Sip 👍, aku bikinin draft **README.md** untuk project **SKPU Air Pollution menggunakan SVM** biar rapi dan profesional.
 
-Proyek ini merupakan implementasi Sistem Klasifikasi/Predictive Udara (SKPU) untuk memprediksi tingkat polusi udara menggunakan algoritma Support Vector Machine (SVM).
+---
+
+# 🌍 SKPU Air Pollution Prediction with SVM
+
+Proyek ini merupakan implementasi **Sistem Klasifikasi/Predictive Udara (SKPU)** untuk memprediksi tingkat polusi udara menggunakan algoritma **Support Vector Machine (SVM)**.
 Dataset yang digunakan berisi indikator kualitas udara seperti konsentrasi gas, partikel, serta parameter lingkungan lain yang relevan.
 
-📌 Tujuan
+## 📌 Tujuan
 
-Mengklasifikasikan kualitas udara berdasarkan data sensor atau dataset publik.
+* Mengklasifikasikan kualitas udara berdasarkan data sensor atau dataset publik.
+* Membandingkan performa model SVM dengan baseline model lain.
+* Menyediakan insight yang dapat membantu pengambilan keputusan terkait kesehatan lingkungan.
 
-Membandingkan performa model SVM dengan baseline model lain.
-
-Menyediakan insight yang dapat membantu pengambilan keputusan terkait kesehatan lingkungan.
-
-🗂️ Dataset
+## 🗂️ Dataset
 
 Dataset yang digunakan:
 
-Air Pollution Dataset (contoh: UCI / Kaggle)
+* [Air Pollution Dataset (contoh: UCI / Kaggle)](https://www.kaggle.com/)
+* Fitur utama:
 
-Fitur utama:
+  * PM2.5, PM10, NO2, SO2, CO, O3
+  * Suhu, kelembaban, tekanan udara
+* Label: kategori kualitas udara (*Good, Moderate, Unhealthy, Hazardous*).
 
-PM2.5, PM10, NO2, SO2, CO, O3
+## 🛠️ Tech Stack
 
-Suhu, kelembaban, tekanan udara
+* **Python 3.x**
+* **Scikit-learn** (SVM, preprocessing, metrics)
+* **Pandas & NumPy** (data handling)
+* **Matplotlib & Seaborn** (visualisasi data)
+* **Jupyter Notebook** (eksperimen & dokumentasi)
 
-Label: kategori kualitas udara (Good, Moderate, Unhealthy, Hazardous).
+## ⚙️ Langkah Analisis
 
-🛠️ Tech Stack
+1. **Data Preprocessing**
 
-Python 3.x
+   * Handling missing values
+   * Normalisasi data
+   * Feature selection
 
-Scikit-learn (SVM, preprocessing, metrics)
+2. **Modeling**
 
-Pandas & NumPy (data handling)
+   * Support Vector Machine (SVM)
+   * Hyperparameter tuning (GridSearchCV)
 
-Matplotlib & Seaborn (visualisasi data)
+3. **Evaluation**
 
-Jupyter Notebook (eksperimen & dokumentasi)
+   * Accuracy, Precision, Recall, F1-Score
+   * Confusion Matrix
+   * Visualisasi hasil prediksi
 
-⚙️ Langkah Analisis
+## 📊 Hasil (contoh)
 
-Data Preprocessing
+* **SVM Accuracy**: 0.87
+* **F1-Score**: 0.85
+* Model menunjukkan performa yang baik dalam mengklasifikasikan kualitas udara.
 
-Handling missing values
+## 🚀 Cara Menjalankan
 
-Normalisasi data
+Clone repository:
 
-Feature selection
+```bash
+git clone https://github.com/username/air-pollution-svm.git
+cd air-pollution-svm
+```
 
-Modeling
+Install dependencies:
 
-Support Vector Machine (SVM)
+```bash
+pip install -r requirements.txt
+```
 
-Hyperparameter tuning (GridSearchCV)
+Jalankan notebook / script Python:
 
-Evaluation
+```bash
+jupyter notebook AirPollution_SVM.ipynb
+```
 
-Accuracy, Precision, Recall, F1-Score
+## 📌 Catatan
 
-Confusion Matrix
+* Project ini masih bisa dikembangkan dengan menambahkan data real-time dari sensor IoT.
+* Bisa juga diperluas dengan model ensemble untuk perbandingan performa.
 
-Visualisasi hasil prediksi
+## 👤 Author
 
-📊 Hasil (contoh)
+Dikembangkan oleh \[Nama Kamu] sebagai bagian dari eksplorasi machine learning untuk analisis lingkungan.
 
-SVM Accuracy: 0.87
+---
 
-F1-Score: 0.85
-
-Model menunjukkan performa yang baik dalam mengklasifikasikan kualitas udara.
+Mau aku bikinin juga **requirements.txt** sekalian, biar repo kamu tinggal langsung jalan?
