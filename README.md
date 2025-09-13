@@ -13,7 +13,7 @@ Dataset yang digunakan berisi indikator kualitas udara seperti konsentrasi gas, 
 
 Dataset yang digunakan:
 
-* [Air Pollution Dataset (contoh: UCI / Kaggle)](https://www.kaggle.com/)
+* [Air Pollution Dataset (contoh: UCI / Kaggle)](https://www.kaggle.com/datasets/ipunguhbpwt/jakartaairpolution)
 * Fitur utama:
 
   * PM2.5, PM10, NO2, SO2, CO, O3
@@ -62,12 +62,6 @@ git clone https://github.com/username/air-pollution-svm.git
 cd air-pollution-svm
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 Jalankan notebook / script Python:
 
 ```bash
@@ -81,8 +75,4 @@ jupyter notebook AirPollution_SVM.ipynb
 
 ## 👤 Author
 
-Dikembangkan oleh \[Nama Kamu] sebagai bagian dari eksplorasi machine learning untuk analisis lingkungan.
-
----
-
-Mau aku bikinin juga **requirements.txt** sekalian, biar repo kamu tinggal langsung jalan?
+Dikembangkan oleh Dimas Putra Nugroho sebagai bagian dari eksplorasi machine learning untuk analisis lingkungan.
